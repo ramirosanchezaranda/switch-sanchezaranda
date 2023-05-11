@@ -8,4 +8,10 @@ export const styles = StyleSheet.create({
     backgroundColor: theme.colors.background,
     marginTop: 32,
   },
+  loaderContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: theme.colors.black,
+  },
 });

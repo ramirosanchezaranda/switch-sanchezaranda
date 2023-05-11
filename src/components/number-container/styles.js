@@ -4,15 +4,13 @@ import { theme } from './../../constants/theme';
 
 export const styles = StyleSheet.create({
   container: {
-    width: '100%',
-    height: 90,
-    backgroundColor: theme.colors.primary,
     alignItems: 'center',
     justifyContent: 'center',
+    marginVertical: 10,
   },
-  title: {
+  number: {
     fontFamily: theme.fonts.fontFamily.bold,
-    fontSize: theme.fonts.fontSize.title,
+    fontSize: theme.fonts.fontSize.bigNumber,
     color: theme.colors.white,
   },
 });

@@ -10,10 +10,14 @@ export const theme = {
     text: '#02020A',
   },
   fonts: {
-    fontFamily: 'Roboto',
+    fontFamily: {
+      bold: 'Epilogue-Bold',
+      regular: 'Epilogue-Regular',
+    },
     fontSize: {
       title: 20,
       text: 16,
+      bigNumber: 32,
     },
   },
 };
